@@ -12,6 +12,8 @@ export default function Counter() {
     <div>
       <p>Count: {count}</p>
       <button onClick={handleClick}>Click to count!</button>
+      {/* can write count function like this instead */}
+      {/* <button onClick={() => setCount(count + 1)}>Click me</button> */}
     </div>
   );
 }
